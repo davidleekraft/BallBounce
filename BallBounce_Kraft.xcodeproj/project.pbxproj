@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B0E941191174870043FE9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E940191174870043FE9E /* Foundation.framework */; };
+		63B0E943191174870043FE9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E942191174870043FE9E /* CoreGraphics.framework */; };
+		63B0E945191174870043FE9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E944191174870043FE9E /* UIKit.framework */; };
+		63B0E947191174870043FE9E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E946191174870043FE9E /* SpriteKit.framework */; };
+		63B0E94D191174870043FE9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63B0E94B191174870043FE9E /* InfoPlist.strings */; };
+		63B0E94F191174870043FE9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0E94E191174870043FE9E /* main.m */; };
+		63B0E953191174870043FE9E /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0E952191174870043FE9E /* BBAppDelegate.m */; };
+		63B0E956191174870043FE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B0E954191174870043FE9E /* Main.storyboard */; };
+		63B0E959191174870043FE9E /* BBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0E958191174870043FE9E /* BBViewController.m */; };
+		63B0E95C191174870043FE9E /* BBMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0E95B191174870043FE9E /* BBMyScene.m */; };
+		63B0E95E191174870043FE9E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B0E95D191174870043FE9E /* Spaceship.png */; };
+		63B0E960191174870043FE9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B0E95F191174870043FE9E /* Images.xcassets */; };
+		63B0E967191174870043FE9E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E966191174870043FE9E /* XCTest.framework */; };
+		63B0E968191174870043FE9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E940191174870043FE9E /* Foundation.framework */; };
+		63B0E969191174870043FE9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0E944191174870043FE9E /* UIKit.framework */; };
+		63B0E971191174870043FE9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63B0E96F191174870043FE9E /* InfoPlist.strings */; };
+		63B0E973191174870043FE9E /* BallBounce_KraftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B0E972191174870043FE9E /* BallBounce_KraftTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B0E96A191174870043FE9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B0E935191174870043FE9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B0E93C191174870043FE9E;
+			remoteInfo = BallBounce_Kraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63B0E93D191174870043FE9E /* BallBounce_Kraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallBounce_Kraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B0E940191174870043FE9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63B0E942191174870043FE9E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63B0E944191174870043FE9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63B0E946191174870043FE9E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		63B0E94A191174870043FE9E /* BallBounce_Kraft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BallBounce_Kraft-Info.plist"; sourceTree = "<group>"; };
+		63B0E94C191174870043FE9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63B0E94E191174870043FE9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63B0E950191174870043FE9E /* BallBounce_Kraft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BallBounce_Kraft-Prefix.pch"; sourceTree = "<group>"; };
+		63B0E951191174870043FE9E /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		63B0E952191174870043FE9E /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		63B0E955191174870043FE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B0E957191174870043FE9E /* BBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBViewController.h; sourceTree = "<group>"; };
+		63B0E958191174870043FE9E /* BBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBViewController.m; sourceTree = "<group>"; };
+		63B0E95A191174870043FE9E /* BBMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMyScene.h; sourceTree = "<group>"; };
+		63B0E95B191174870043FE9E /* BBMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMyScene.m; sourceTree = "<group>"; };
+		63B0E95D191174870043FE9E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		63B0E95F191174870043FE9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63B0E965191174870043FE9E /* BallBounce_KraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallBounce_KraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B0E966191174870043FE9E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63B0E96E191174870043FE9E /* BallBounce_KraftTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BallBounce_KraftTests-Info.plist"; sourceTree = "<group>"; };
+		63B0E970191174870043FE9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63B0E972191174870043FE9E /* BallBounce_KraftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallBounce_KraftTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B0E93A191174870043FE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0E943191174870043FE9E /* CoreGraphics.framework in Frameworks */,
+				63B0E945191174870043FE9E /* UIKit.framework in Frameworks */,
+				63B0E947191174870043FE9E /* SpriteKit.framework in Frameworks */,
+				63B0E941191174870043FE9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0E962191174870043FE9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0E967191174870043FE9E /* XCTest.framework in Frameworks */,
+				63B0E969191174870043FE9E /* UIKit.framework in Frameworks */,
+				63B0E968191174870043FE9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B0E934191174870043FE9E = {
+			isa = PBXGroup;
+			children = (
+				63B0E948191174870043FE9E /* BallBounce_Kraft */,
+				63B0E96C191174870043FE9E /* BallBounce_KraftTests */,
+				63B0E93F191174870043FE9E /* Frameworks */,
+				63B0E93E191174870043FE9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B0E93E191174870043FE9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B0E93D191174870043FE9E /* BallBounce_Kraft.app */,
+				63B0E965191174870043FE9E /* BallBounce_KraftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B0E93F191174870043FE9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B0E940191174870043FE9E /* Foundation.framework */,
+				63B0E942191174870043FE9E /* CoreGraphics.framework */,
+				63B0E944191174870043FE9E /* UIKit.framework */,
+				63B0E946191174870043FE9E /* SpriteKit.framework */,
+				63B0E966191174870043FE9E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63B0E948191174870043FE9E /* BallBounce_Kraft */ = {
+			isa = PBXGroup;
+			children = (
+				63B0E951191174870043FE9E /* BBAppDelegate.h */,
+				63B0E952191174870043FE9E /* BBAppDelegate.m */,
+				63B0E954191174870043FE9E /* Main.storyboard */,
+				63B0E957191174870043FE9E /* BBViewController.h */,
+				63B0E958191174870043FE9E /* BBViewController.m */,
+				63B0E95A191174870043FE9E /* BBMyScene.h */,
+				63B0E95B191174870043FE9E /* BBMyScene.m */,
+				63B0E95D191174870043FE9E /* Spaceship.png */,
+				63B0E95F191174870043FE9E /* Images.xcassets */,
+				63B0E949191174870043FE9E /* Supporting Files */,
+			);
+			path = BallBounce_Kraft;
+			sourceTree = "<group>";
+		};
+		63B0E949191174870043FE9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B0E94A191174870043FE9E /* BallBounce_Kraft-Info.plist */,
+				63B0E94B191174870043FE9E /* InfoPlist.strings */,
+				63B0E94E191174870043FE9E /* main.m */,
+				63B0E950191174870043FE9E /* BallBounce_Kraft-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63B0E96C191174870043FE9E /* BallBounce_KraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B0E972191174870043FE9E /* BallBounce_KraftTests.m */,
+				63B0E96D191174870043FE9E /* Supporting Files */,
+			);
+			path = BallBounce_KraftTests;
+			sourceTree = "<group>";
+		};
+		63B0E96D191174870043FE9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63B0E96E191174870043FE9E /* BallBounce_KraftTests-Info.plist */,
+				63B0E96F191174870043FE9E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B0E93C191174870043FE9E /* BallBounce_Kraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B0E976191174870043FE9E /* Build configuration list for PBXNativeTarget "BallBounce_Kraft" */;
+			buildPhases = (
+				63B0E939191174870043FE9E /* Sources */,
+				63B0E93A191174870043FE9E /* Frameworks */,
+				63B0E93B191174870043FE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallBounce_Kraft;
+			productName = BallBounce_Kraft;
+			productReference = 63B0E93D191174870043FE9E /* BallBounce_Kraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B0E964191174870043FE9E /* BallBounce_KraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B0E979191174870043FE9E /* Build configuration list for PBXNativeTarget "BallBounce_KraftTests" */;
+			buildPhases = (
+				63B0E961191174870043FE9E /* Sources */,
+				63B0E962191174870043FE9E /* Frameworks */,
+				63B0E963191174870043FE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B0E96B191174870043FE9E /* PBXTargetDependency */,
+			);
+			name = BallBounce_KraftTests;
+			productName = BallBounce_KraftTests;
+			productReference = 63B0E965191174870043FE9E /* BallBounce_KraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B0E935191174870043FE9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Kraft";
+				TargetAttributes = {
+					63B0E964191174870043FE9E = {
+						TestTargetID = 63B0E93C191174870043FE9E;
+					};
+				};
+			};
+			buildConfigurationList = 63B0E938191174870043FE9E /* Build configuration list for PBXProject "BallBounce_Kraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B0E934191174870043FE9E;
+			productRefGroup = 63B0E93E191174870043FE9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B0E93C191174870043FE9E /* BallBounce_Kraft */,
+				63B0E964191174870043FE9E /* BallBounce_KraftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B0E93B191174870043FE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0E94D191174870043FE9E /* InfoPlist.strings in Resources */,
+				63B0E960191174870043FE9E /* Images.xcassets in Resources */,
+				63B0E95E191174870043FE9E /* Spaceship.png in Resources */,
+				63B0E956191174870043FE9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0E963191174870043FE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0E971191174870043FE9E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B0E939191174870043FE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0E959191174870043FE9E /* BBViewController.m in Sources */,
+				63B0E953191174870043FE9E /* BBAppDelegate.m in Sources */,
+				63B0E95C191174870043FE9E /* BBMyScene.m in Sources */,
+				63B0E94F191174870043FE9E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B0E961191174870043FE9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B0E973191174870043FE9E /* BallBounce_KraftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B0E96B191174870043FE9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B0E93C191174870043FE9E /* BallBounce_Kraft */;
+			targetProxy = 63B0E96A191174870043FE9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B0E94B191174870043FE9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B0E94C191174870043FE9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63B0E954191174870043FE9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B0E955191174870043FE9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B0E96F191174870043FE9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B0E970191174870043FE9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B0E974191174870043FE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63B0E975191174870043FE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B0E977191174870043FE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BallBounce_Kraft/BallBounce_Kraft-Prefix.pch";
+				INFOPLIST_FILE = "BallBounce_Kraft/BallBounce_Kraft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63B0E978191174870043FE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BallBounce_Kraft/BallBounce_Kraft-Prefix.pch";
+				INFOPLIST_FILE = "BallBounce_Kraft/BallBounce_Kraft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63B0E97A191174870043FE9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BallBounce_Kraft.app/BallBounce_Kraft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BallBounce_Kraft/BallBounce_Kraft-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BallBounce_KraftTests/BallBounce_KraftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63B0E97B191174870043FE9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BallBounce_Kraft.app/BallBounce_Kraft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BallBounce_Kraft/BallBounce_Kraft-Prefix.pch";
+				INFOPLIST_FILE = "BallBounce_KraftTests/BallBounce_KraftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B0E938191174870043FE9E /* Build configuration list for PBXProject "BallBounce_Kraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0E974191174870043FE9E /* Debug */,
+				63B0E975191174870043FE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B0E976191174870043FE9E /* Build configuration list for PBXNativeTarget "BallBounce_Kraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0E977191174870043FE9E /* Debug */,
+				63B0E978191174870043FE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63B0E979191174870043FE9E /* Build configuration list for PBXNativeTarget "BallBounce_KraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B0E97A191174870043FE9E /* Debug */,
+				63B0E97B191174870043FE9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63B0E935191174870043FE9E /* Project object */;
+}
